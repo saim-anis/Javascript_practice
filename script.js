@@ -1,4 +1,5 @@
 var a = 3;
-var b = 4;
-var c = a + b;
+   b = 4;
+   c = a + b;
 console.log(c);
+alert("Hurray 3 + 4 = 7");
