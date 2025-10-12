@@ -103,20 +103,79 @@
 // let car = {Electric: ["Tesla", "Byd", "Deepal", "Hyundai","Toyota","Bmw"]}
 // console.log(car["Electric"][0])
 
-let person = {
-    Studentname: "Farhan",
-    Class: 10,
-    Marks: [
-        { Sindhi: "20" },
-        { English: "50" },
-        { Urdu: "90" },
-        { Computer: "100" },
-    ]
-};
+// let person = {
+//     Studentname: "Farhan",
+//     Class: 10,
+//     Marks: [
+//         { Sindhi: "20" },
+//         { English: "50" },
+//         { Urdu: "90" },
+//         { Computer: "100" },
+//     ]
+// };
 
-console.log(person.Marks[2])
+// console.log(person.Marks[2])
 
-let inTag = document.getElementById("h1")
+// let inTag = document.getElementById("h1")
 
-a = h1.innerText = (`My name is ${person.Studentname} I study in Class ${person.Class} I achives ${person.Marks[3].Computer} Marks in Computer Science`)
-console.log(a)
+// a = h1.innerText = (`My name is ${person.Studentname} I study in Class ${person.Class} I achives ${person.Marks[3].Computer} Marks in Computer Science`)
+// console.log(a)
+
+// // let col = Math.ceil(Math.random()) * 2
+// // console.log(col);
+
+// function generateColor() {
+//       // Random hex color
+//       let randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+
+//       // Apply color to box
+//       document.getElementById("colorBox").style.backgroundColor = randomColor;
+
+//  document.getElementById("colorBox") = + randomColor;
+
+// }
+//       generateColor()
+
+      let text ="hello world"
+      let newText = text.replace("hello","Jello")
+      console.log(newText)
+
+      console.log(text.charAt(0))
+
+      let strtoInt = "abc"
+      let method = parseInt(strtoInt)
+      console.log(method)
+
+
+      let Num = Math.random() * 100
+    //   console.log(Num)
+
+      console.log(Num.toFixed(2)) //only 2 will stay in after decimal
+
+let Countries = ["Canada","London","America","Dubai",
+    
+    "Palestine","Bahrain","Qatar","Yemen"]
+
+//Check that value is found or not
+
+console.log(Countries.includes("Yemen"))
+
+
+let Int = "545"
+
+
+let InttoStr = parseInt(Int)
+
+
+console.log(InttoStr + 5)
+
+
+for (let i = 10; i >= 1; i--) {
+console.log([i] * 2)
+  
+}
+// i 10 h right now
+// I say that jab
+// i (10) 0 se big and equal hojaye tb tk chalao
+
+
