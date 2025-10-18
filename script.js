@@ -4,8 +4,8 @@
 // console.log(i)
 // }
 
-//6-august-2025
-// CHAPTER 11 to 20 ASSIGNMENT
+
+
 
 // var Firstno = 20 ;
 // var Secondno = 20 ;
@@ -178,4 +178,43 @@ console.log([i] * 2)
 // I say that jab
 // i (10) 0 se big and equal hojaye tb tk chalao
 
+
+let junior = ["Ali","Kamran","Rehan"]
+let Senior = ["Farzan","Ahmed","Imran"]
+
+
+
+console.log(junior.join("_+_"))
+
+
+console.log(junior.concat( Senior))
+
+console.log(junior.indexOf("Rehan"));
+
+
+
+console.log(Senior.isArray)
+
+let integer = "1.226666"
+
+let result = parseInt(integer)
+
+console.log(result )
+
+
+
+// convert array into string
+
+console.log(Senior.toString())
+
+  // Convert String to Array
+
+  let Senior1 = "Saim" 
+
+console.log(Senior1.split())
+
+
+let Myname = "Saim"
+
+console.log(Myname)
 
