@@ -218,3 +218,36 @@ let Myname = "Saim"
 
 console.log(Myname)
 
+let Round = 16.5
+
+let Mathround = Math.round(Round)
+
+console.log(Mathround);
+
+
+let submitBtn = document.getElementById("Submit")
+
+// Function is invoked/call
+
+// submitBtn.addEventListener("click",  submission()) 
+
+
+submitBtn.addEventListener("click",  submission)
+
+async function submission() {
+  console.log("Function is Running");
+
+  // Function click hone pr chalega
+
+setTimeout(() => {
+  // alert("after 3 seconds")
+  let prompt1 = prompt("Enter first no",39)
+
+   let prompt2 = prompt("Enter Second no" ,2)
+   
+   let alertMsg = alert(parseInt(prompt1) + parseInt(prompt2))
+  
+   console.log(alertMsg);
+}, 3000);
+
+}
